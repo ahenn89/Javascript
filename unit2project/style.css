@@ -1,0 +1,66 @@
+html {
+    background-color: cornsilk;
+    color: darkmagenta;
+    background-image: url('images/bg2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    
+}
+#wrapper{
+    border: ridge 5px darkmagenta;
+    margin: 5%;
+}
+#header{
+    text-align: center;
+    background-color: #f7cac9;
+    text-shadow: 2px 2px 5px whitesmoke;
+    color: darkmagenta;
+    margin: 2.5%;
+    padding: 2%;
+    box-shadow: 2px 2px 2px 2px ;
+}
+#rules{
+    margin: 2.5%;
+}
+#rules h2 {
+    background-size: contain;
+    border: 2px black;
+    text-shadow: 2px 2px 2px wheat;
+}
+#rulesForm{
+    position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    background: blanchedalmond;
+    padding: 10px;
+	margin-bottom: 5%;
+}
+#rulesForm::after{
+    content: '';
+    position: absolute;
+    z-index: -1; /* hide shadow behind image */
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    width: 98%;
+    height: 100px;
+    bottom: 0;
+}
+#ruleButtons{
+    padding: 1.5% 0%;
+}
+#hidebtn, #showbtn, #startbtn, #submitbtn, #stopbtn{
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    color:darkmagenta;
+    text-shadow: 2px 2px 5px whitesmoke;
+}
+#startButton{
+    padding-bottom: 3%;
+}
+#tile3{
+    position: relative;
+    box-shadow: 2px 2px 2px 2px ;color: darkmagenta;
+    background: #f7cac9;
+    padding: 10px;
+}

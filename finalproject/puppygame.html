@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Puppy Paradise</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+	
+    <body id="container">
+        <header>
+			<div id="banner">
+				<img src="images/websitebanner.png">
+			</div>
+        </header>
+        <div id="nav">
+			<ul>
+				<li id="home"><a href="puppyparadise.html">Home</a></li>
+                <li><a href="puppygame.html">Puppy Game</a></li>
+				<li><a href="puppylinks.html">Puppy Video</a></li>
+			</ul>
+        </div>
+        <section id="mainSection">
+			<div id="imagegallery">
+				<img src="images/puppybanner.jpg">
+			</div>
+			<div id="puppygame">
+            <!-- start form -->
+              <div id="questions">
+                <h1>Puppy Mad Libs!</h1>  
+                <h2>Please fill out the following!</h2>
+				<h3>Verb</h3><p> - A word used to describe an action, state, or occurrence.<br>Ex. Run, hear, call, wag.</p>
+				<h3>Adjective</h3><p> - A word or phrase naming an attribute.
+				<br>Ex. Beautiful, edible, meaningless, nicer, adorable, gorgeous, breakable.</p>
+				<h3>Noun</h3><p> - A noun is a word that identifies a person, animal, place, thing, or idea.</p>
+                <form role="form">
+                  <div class="form-group">
+                    <label for="verb">Verb</label>
+                    <input for="verb" class="form-control verb" type="text" placeholder="Enter a verb...">
+                  </div>
+                  <div class="form-group">
+                    <label for="verb2">Verb 2</label>
+                    <input for="verb2" class="form-control verb2" type="text" placeholder="Enter a verb...">
+                  </div>
+<div class="form-group">
+                    <label for="verb3">Verb 3</label>
+                    <input id="verb3" class="form-control verb3" type="text" placeholder="Enter another verb...">
+                  </div>
+                  <div class="form-group">
+                    <label for="adjective">Adjective</label>
+                    <input id="adjective" class="form-control adjective" type="text" placeholder="Enter an adjective...">
+                  </div>
+                  <div class="form-group">
+                    <label for="noun"> Noun</label>
+                    <input id="noun" class="form-control noun" type="text" placeholder="Enter a noun...">
+                  </div>
+                  <div class="form-group">
+                    <label for="noun2">Noun 2</label>
+                    <input id="noun2" class="form-control noun2" type="text" placeholder="Enter another noun...">
+                  </div>
+                <div class="form-group">
+                    <label for="noun3">Noun 3</label>
+                    <input id="noun3" class="form-control noun3" type="text" placeholder="Enter another noun...">
+                  </div>
+                <div class="form-group">
+                    <label for="noun4">Noun 4</label>
+                    <input id="noun4" class="form-control noun4" type="text" placeholder="Enter another noun...">
+                  </div>
+                <div class="form-group">
+                    <label for="adjective2">Adjective 2</label>
+                    <input id="adjective2" class="form-control adjective2" type="text" placeholder="Enter an adjective...">
+                  </div> 
+                <div class="form-group">
+                    <label for="adjective3">Adjective 3</label>
+                    <input id="adjective3" class="form-control adjective3" type="text" placeholder="Enter an adjective...">
+                  </div>
+                <div class="form-group">
+                    <label for="noun5">Noun 5</label>
+                    <input id="noun5" class="form-control noun5" type="text" placeholder="Enter another noun...">
+                  </div>    
+                  <div>
+                  </div>
+                </form>
+                <button id="btn-click" type="submit" class="btn btn-primary btn-lg">Puppy Poem Generate!</button>
+              </div>
+              <!-- end form -->
+
+              <!-- start story -->
+              <div id="story">
+                <h1>Mad about Puppy Libs</h1>
+                <hr>
+                <h3>You have a cute little <span class="verb"></span>.<br>
+                And a happy  <span class="verb2"></span>tail!<br>
+                You <span class="verb3"></span> me when I come home.<br>
+                You bark because there's <span class="noun"></span>.<br>
+                You  <span class="noun2"></span> in my bed
+                And think my <span class="noun3"></span> is a toy.<br>
+                Sweet little puppy
+                You fill me with <span class="noun4"></span>.<br>
+                Oh, little puppy so <span class="adjective2"></span> and <span class="adjective3"></span>.<br>
+                I just want you to know<br>
+                How  much I <span class="noun5"></span> you!</h3>
+              </div>
+              <!-- end story -->
+			</div>
+        </section>
+        <footer id="bigfoot">
+            <p>&copy2016 - Ashlee Henn - Puppy Paradise</p>
+        </footer>
+		<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="js/puppy.js">
+        </script>
+        
+    </body>
+</html>

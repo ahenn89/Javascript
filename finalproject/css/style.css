@@ -1,0 +1,134 @@
+html {
+    background-color: #fff2df;
+    min-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, p {
+    color: #674d3c;
+}
+ul, li, a {
+    list-style: none;
+    text-decoration: none;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+header {
+}
+#container {
+	max-width: 1200px;/* width of site (use max-width instead of width when the site is responsive)*/
+	margin: 0 auto;
+}
+
+#banner  img{
+	display: block;
+    margin: 0 auto;
+	padding: 1.5% 0;
+}
+#nav {
+ 
+}
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #674d3c;   
+}
+#nav ul li {
+    float: left;
+	padding: 0px 15px;
+}
+#nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav a:active{
+    background-color: #d9ad7c;
+    color: #674d3c;
+}
+
+#mainSection {
+	
+}
+.cycle-slideshow {
+	margin: 2.5% 0;
+}
+#puppyinfo{
+    padding: 0% 10%;
+}
+#puppyinfo img {
+	width: 50%;
+	padding-left: 25px;
+}
+#puppyinfo p{
+	width: 45%;
+    float: left;
+}
+#puppyvideo{
+    padding: 0% 10%;
+}
+#puppyvideo iframe{
+    padding: 5% 15%;
+}
+#puppygame {
+    text-align: center;
+    background-color: #f7cac9;
+    text-shadow: 2px 2px 5px #c5a781;
+    color: #674d3c;
+    margin: 2.5%;
+    padding: 2%;
+    box-shadow: 1px 2px 4px rgba(103, 77, 60, .5) 
+}
+.form-group {
+	padding: 5px;
+}
+.ui-widget.ui-widget-content {
+    border: 1px solid #d9ad7c;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    background: #674d3c url(images/ui-bg_gloss-wave_50_6eac2c_500x100.png) 50% 50% repeat-x;
+    font-weight: normal;
+    color: #fff;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 1px solid #fff2df;
+    font-weight: normal;
+    color: #fff;
+}
+.ui-widget-header {
+    border: 1px solid #d9ad7c;
+    background: #d9ad7c url(images/ui-bg_gloss-wave_75_2191c0_500x100.png) 50% 50% repeat-x;
+    color: #eaf5f7;
+    font-weight: bold;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 1px solid #000;
+    background: #674d3c  url(images/ui-bg_glass_45_0078ae_1x400.png) 50% 50% repeat-x;
+    font-weight: normal;
+    color: #fff;
+}
+.ui-button:hover{
+	background: #fff2df;
+	color: #674d3c;
+}
+#btn-click {
+	margin: 10px 0px;
+}
+#imagegallery {
+	padding: 2% 15%;
+}
+#bigfoot {
+	position: relative;
+    background-color: #674d3c;
+    text-align: center;
+}
+#bigfoot p {
+    color: white;
+    padding: 5px;
+}
